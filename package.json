@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "name": "api-storage-tiaw",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fábio Cordeiro",
+  "license": "ISC",
+  "description": ""
+}
