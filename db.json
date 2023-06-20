@@ -1,195 +1,80 @@
 {
-  "user": [
+  "clientes": [
     {
-      "id": "1",
-      "nome": "Loildo",
-      "email": "loildo@loildo.com",
-      "senha": "123"
+      "id": 1,
+      "nome": "João da Silva",
+      "telefone": "123456789",
+      "endereco": "Rua dos Animais, 123"
     },
     {
-      "id": "_e8ygZZ"
-    },
-    {
-      "id": "9oTUDVR"
-    },
-    {
-      "nome": "asdfa",
-      "email": "teste@teste.com",
-      "senha": "123",
-      "id": "Z-amnny"
-    },
-    {
-      "nome": "salve",
-      "email": "salve@salve.com",
-      "senha": "123",
-      "id": "NzmbPgD"
-    },
-    {
-      "nome": "asdf",
-      "email": "teste@teste.com3",
-      "senha": "d",
-      "id": "HCpDaFN"
-    },
-    {
-      "nome": "asd",
-      "email": "asdfasdfd@casdfasdc.com",
-      "senha": "123",
-      "id": "AxA6fxR"
+      "id": 2,
+      "nome": "Maria Souza",
+      "telefone": "987654321",
+      "endereco": "Avenida dos Pets, 456"
     }
   ],
-  "contas": [
+  "animais": [
     {
-      "id": "1",
-      "descricao": "Caixa",
-      "valor": "3"
+      "id": 1,
+      "nome": "Rex",
+      "especie": "Cachorro",
+      "raca": "Labrador",
+      "idade": 3,
+      "cliente_id": 1
     },
     {
-      "id": "2",
-      "descricao": "Poupança",
-      "valor": "0"
+      "id": 2,
+      "nome": "Mimi",
+      "especie": "Gato",
+      "raca": "Siamês",
+      "idade": 2,
+      "cliente_id": 1
     },
     {
-      "id": "3",
-      "descricao": "Nubank",
-      "valor": 0
+      "id": 3,
+      "nome": "Lola",
+      "especie": "Cachorro",
+      "raca": "Poodle",
+      "idade": 5,
+      "cliente_id": 2
+    },
+    {
+      "id": 4,
+      "nome": "Nina",
+      "especie": "Gato",
+      "raca": "Persa",
+      "idade": 1,
+      "cliente_id": 2
     }
   ],
-  "categorias": [
+  "produtos": [
     {
-      "id": "1",
-      "descricao": "Alimentação"
+      "id": 1,
+      "nome": "Ração para cães",
+      "marca": "Premier",
+      "preco": 50.99,
+      "quantidade_estoque": 100
     },
     {
-      "id": "2",
-      "descricao": "Educação"
-    },
-    {
-      "id": "3",
-      "descricao": "Outros"
+      "id": 2,
+      "nome": "Areia sanitária para gatos",
+      "marca": "Chalesco",
+      "preco": 25.99,
+      "quantidade_estoque": 50
     }
   ],
-  "transacoes": [
+  "servicos": [
     {
-      "id": "1",
-      "tipo": "1",
-      "valor": null,
-      "descricao": null,
-      "conta": null,
-      "categoria": null,
-      "data": null,
-      "recorrencia": null
+      "id": 1,
+      "nome": "Banho e tosa",
+      "preco": 80.0,
+      "duracao_minutos": 120
     },
     {
-      "id": "1",
-      "tipo": "2",
-      "valor": null,
-      "descricao": null,
-      "conta": null,
-      "categoria": null,
-      "data": null,
-      "recorrencia": null
-    },
-    {
-      "tipo": 1,
-      "valor": -5,
-      "descricao": "teste",
-      "data": "2022-05-28",
-      "recorrencia": "1",
-      "conta": "1",
-      "categoria": "1",
-      "id": "3_00-At"
-    },
-    {
-      "tipo": 2,
-      "valor": "20",
-      "descricao": "recetia",
-      "data": "2022-05-28",
-      "recorrencia": "1",
-      "conta": "3",
-      "categoria": "1",
-      "id": "u8mYmzF"
-    },
-    {
-      "tipo": "",
-      "valor": 20,
-      "descricao": "asdf",
-      "data": "2022-05-12",
-      "recorrencia": "2",
-      "conta": "G5bmqkT",
-      "categoria": "1",
-      "id": "n2HGjZB"
-    },
-    {
-      "tipo": "",
-      "valor": 3,
-      "descricao": "dfdf",
-      "data": "2022-05-19",
-      "recorrencia": "1",
-      "conta": "1",
-      "categoria": "1",
-      "id": "kypv9HC"
-    },
-    {
-      "tipo": 2,
-      "valor": 3,
-      "descricao": "dfdf",
-      "data": "2022-05-19",
-      "recorrencia": "1",
-      "conta": "1",
-      "categoria": "1",
-      "id": "bAvIXiz"
-    },
-    {
-      "tipo": 1,
-      "valor": -3,
-      "descricao": "dfdf",
-      "data": "2022-05-27",
-      "recorrencia": 1,
-      "conta": 2,
-      "categoria": 1,
-      "id": "OOhxNEI"
-    },
-    {
-      "tipo": 1,
-      "valor": -600,
-      "descricao": "dfdf",
-      "data": "2022-05-30",
-      "recorrencia": 1,
-      "conta": 1,
-      "categoria": 1,
-      "id": "gRXNHss"
-    }
-  ],
-  "limites": [
-    {
-      "valor": 500,
-      "data": null,
-      "ativo": null,
-      "id": "1"
-    },
-    {
-      "valor": 1000,
-      "data": null,
-      "ativo": null,
-      "id": "2"
-    },
-    {
-      "valor": 1500,
-      "data": null,
-      "ativo": 1,
-      "id": "3"
-    },
-    {
-      "valor": 2000,
-      "data": null,
-      "ativo": null,
-      "id": "4"
-    },
-    {
-      "valor": 5,
-      "data": null,
-      "ativo": null,
-      "id": "5"
+      "id": 2,
+      "nome": "Consulta veterinária",
+      "preco": 120.0,
+      "duracao_minutos": 60
     }
   ]
 }
